@@ -9,10 +9,12 @@ h1 {
 h2 {
 }
 
-dl{
+dt{
     float: left;
 }
 
 dd{
     float: left;
+    margin: 0;
+    padding: 0;
 }
