@@ -11,6 +11,7 @@ h2 {
 
 dt {
     float: left;
+    clear: left;
 }
 
 dd {
