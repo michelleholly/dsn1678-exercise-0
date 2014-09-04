@@ -9,9 +9,18 @@ h1 {
 h2 {
 }
 
+dl {
+    border: 1px solid red;
+    /*Overflow hidden is a clearfix
+    It reminds the <dl> to wrap around its floated children
+    */
+    overflow: hidden;
+}
+
 dt {
     float: left;
     clear: left;
+    width: 8em;
 }
 
 dd {
